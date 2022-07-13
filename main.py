@@ -7,10 +7,11 @@ from models.Orden import Orden
 
 raton = Raton("usb", "philco", 3200)
 raton2 = Raton("usb", "tavel", 7200)
-raton2.comunicarse()
+raton2.comunicarseConLaPc()
 
 teclado = Teclado("usb", "lenovo", "qwerty")
 teclado2 = Teclado("usb2", "lenovo2", "qwerty2")
+teclado2.comunicarseConLaPc()
 
 
 monitor = Monitor("HP", 14)
@@ -28,10 +29,10 @@ print(computadora2)
 orden = Orden()
 orden.aregarComputadoras(computadora1)
 orden.aregarComputadoras(computadora2)
-orden.mostrarOrden()
+print(orden)
 
 orden2 = Orden()
 orden2.aregarComputadoras(computadora2)
 orden2.aregarComputadoras(computadora2)
 orden2.aregarComputadoras(computadora1)
-orden2.mostrarOrden()
+print(orden2)

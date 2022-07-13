@@ -23,6 +23,6 @@ class DispositivosEntrada:
         pass
 
     def comunicarseConLaPc(self):
-       pass    
+        pass    
 
     
