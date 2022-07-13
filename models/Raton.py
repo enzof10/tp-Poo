@@ -21,11 +21,6 @@ class Raton(DispositivosEntrada):
     def __str__(self):
         return f"idRaton: {self._idRaton}, Tipo de entrada: {self._tipoEntrada}, Marca: {self._marca}"
 
-    def conectar(self):
-        print("Conectando raton por" + self._tipoEntrada)
-
-    def desconectar(self):
-        print("Desconectando raton por" + self._tipoEntrada)
 
     def comunicarseConLaPc(self):
         print("mover y clickar...")

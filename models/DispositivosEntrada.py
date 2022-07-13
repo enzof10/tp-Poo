@@ -16,12 +16,6 @@ class DispositivosEntrada:
     def setMarca(self, marca):
         self._marca = marca
 
-    def conectar(self):   
-        pass
-
-    def desconectar(self):
-        pass
-
     def comunicarseConLaPc(self):
         pass    
 
