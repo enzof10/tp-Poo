@@ -1,1 +1,1 @@
-<h1> Trabajo practico para la matria POO  </h1>
+<h1> Trabajo practico para la materia POO  </h1>
